@@ -1,0 +1,20 @@
+.kkb-page li a {
+  color: #428cca;
+  margin-left: 10px;
+  border-color: #dddddd;
+}
+.kkb-page li a:hover {
+  color: #2b6497;
+  background: #eeeeee;
+}
+.kkb-page li.active a {
+  color: #fff;
+  background: #428cca;
+}
+.kkb-page li:first-child a, .kkb-page li span, .kkb-page li:last-child a, .kkb-page li span {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}

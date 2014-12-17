@@ -1,0 +1,60 @@
+.footer .links {
+	height: 370px;
+	padding-top: 60px;
+	background-color: #18222d;
+	color: #fff;
+}
+
+.footer h5 {
+	margin-bottom: 30px;
+}
+
+.footer .list-unstyled > li {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+
+.footer .list-unstyled > li > a {
+	color: #a8a9ac;
+}
+
+.footer .list-unstyled > li > a:hover,
+.footer .list-unstyled > li > a:focus {
+	color: #fff;
+}
+
+.footer .social-media .btn {
+	margin-bottom: 20px;
+	border-radius: 4px;
+	line-height: 46px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #fff;
+}
+
+.footer .social-media .weixin-QR {
+	margin-bottom: 26px;
+}
+
+.footer .btn-weibo {
+	background-color: #d52c2a;
+}
+
+.footer .btn-douban {
+	background-color: #2278cf;
+}
+
+.footer .copyright {
+	height: 100px;
+	padding-top: 30px;
+	background-color: #121a21;
+	color: #5f6265;
+	font-size: 12px;
+}
+
+.footer .copyright > p {
+	line-height: 22px;
+	margin-bottom: 0;
+}
+

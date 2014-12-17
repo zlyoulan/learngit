@@ -1,0 +1,7 @@
+@media all { html, body { min-width: 100%; }
+  .login-register-mobile-bg { min-height: 400px; }
+  .login-register-main { position: inherit; left: inherit; top: inherit; margin-left: inherit; margin-top: inherit; width: 100%; }
+  .login-register .logo { -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
+  .login-register-form { padding: 0px 20px 40px; }
+  .login-register-find-pwd .form-group-code { width: 100px; } }
+@media all and (max-width: 540px) { .login-register-bg { background: #fff; } }

@@ -1,0 +1,12 @@
+.search-form {
+	margin-bottom: 26px;
+}
+
+.no-result > h5 {
+	color: #737980;
+}
+
+.no-result li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

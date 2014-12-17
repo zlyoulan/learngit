@@ -1,0 +1,527 @@
+.anonymous_index.bannerslider {
+	min-height: 100%;
+}
+
+
+.study-method {
+	position: absolute;
+	z-index: 11;
+	bottom: 0px;
+	height: 290px;
+	width: 100%;
+	background-color: rgba(11, 19, 24, 0.4);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#660B1318,endColorstr=#660B1318)";
+}
+
+.study-method h1 {
+	margin-top: 42px;
+	margin-bottom: 42px;
+}
+
+.study-method h2 {
+	font-size: 28px;
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+
+.study-method h2 > small {
+	color: #fff;
+}
+
+.study-method .media {
+	width: 100%;
+	padding-right: 0px;
+	color: #fff;
+	display: block;
+	overflow: visible;
+}
+
+.study-method .media-body p {
+	height: 40px;
+	font-size: 14px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.study-method .media-object {
+	height: 92px;
+	width: 92px;
+	border: 2px solid transparent;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	-webkit-box-shadow: 4px 7px 12px 0px rgba(3, 0, 0, 0.12);
+	-moz-box-shadow: 4px 7px 12px 0px rgba(3, 0, 0, 0.12);
+	box-shadow: 4px 7px 12px 0px rgba(3, 0, 0, 0.12);
+	-webkit-transition: border-color .2s ease;
+	-moz-transition: border-color .2s ease;
+	-ms-transition: border-color .2s ease;
+	-o-transition: border-color .2s ease;
+	transition: border-color .2s ease;
+
+}
+
+/**
+ * IE 11 knows those hack
+ * not good not good!
+ */
+.study-method .media:hover .media-object {
+	border-color: #fff;
+}
+
+.study-method .media .scroll {
+	margin-top: 20px;
+	margin-left: 30px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.study-method .media:hover .scroll {
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+
+.discover-course > h1 {
+	margin-top: 40px;
+	margin-bottom: 34px;
+}
+
+
+
+
+
+
+
+
+/**
+ * since the flex-viewport set to overflow:visible;
+ * need to set this overflow:hidden;
+ */
+.discover-course .flexslider {
+	overflow: hidden;
+}
+
+/**
+ * use !important to override element inline style.
+ */
+.discover-course .flex-viewport {
+	overflow: visible !important;
+}
+
+/**
+ * synchronize with the flexslider animation speed
+ */
+.discover-course .slides > li {
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.discover-course .slides > li .pull-left,
+.discover-course .slides > li .media-body,
+.discover-course .slides > li .label-course {
+	filter: alpha(opacity=20);
+}
+
+.discover-course .slides > li .label-course {
+	display: inline-block;
+}
+
+
+.discover-course .slides > .flex-active-slide {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.discover-course .slides > .flex-active-slide .pull-left,
+.discover-course .slides > .flex-active-slide .media-body,
+.discover-course .slides > .flex-active-slide .label-course {
+	filter: alpha(opacity=100);
+}
+
+.discover-course .nav-control {
+	background-color: #f5f5f5;
+	margin-bottom: 50px;
+}
+
+
+
+/**
+ * using nav-justified is really buggy when screen width smaller than 768px;
+ */
+
+
+.discover-course .nav-control li {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.discover-course .nav-control a {
+	padding: 30px 10px;
+	border-bottom: 4px solid transparent;
+	border-radius: 0;
+	color: #5d6266;
+	margin-bottom: 0;
+}
+
+.discover-course .nav-control a:hover,
+.discover-course .nav-control a:active,
+.discover-course .nav-control a:focus {
+	border-bottom-color: #dbdbdb;
+	background-color: transparent;
+	outline: none;
+}
+
+.discover-course .nav-control .flex-active a {
+	border-bottom-color: #f7a947;
+	color: #000 !important;
+	font-weight: bold;
+}
+
+.discover-course .flex-direction-nav a {
+	height: 100%;
+	width: 10%;
+	top: 0;
+	margin-top: 0;
+	background-color: #fff;
+	filter: alpha(opacity=0);
+	background-color: rgba(255,255,255,0);
+}
+
+.discover-course .flex-direction-nav a:before,
+.discover-course .flex-direction-nav a:after {
+	content: " ";
+}
+
+.flexslider:hover .flex-next {
+	right: 0;
+}
+
+.flexslider:hover .flex-prev {
+	left: 0;
+}
+
+/**
+ * don't know if this is a bad idea
+ * the solution is not elegant enough
+ * may cause other problems
+ */
+.discover-course .slides > li > .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.discover-course .media .flex-foremost-course {
+	margin-right: 0;
+	position: relative;
+}
+
+.discover-course .media-object-viewport {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.discover-course .shadow-layer {
+	position: absolute;
+	z-index: 5;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 150px;
+	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6));
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#66000000)";
+}
+
+.flex-foremost-course .caption {
+	position: absolute;
+	z-index: 10;
+	height: 140px;
+	bottom: 0px;
+	color: #fff;
+	padding-left: 30px;
+}
+
+.flex-foremost-course .caption p {
+	margin-top: 22px;
+	margin-bottom: 12px;
+}
+
+.flex-foremost-course .caption h1 {
+	margin-top: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.flex-course-list li:first-child .media {
+    padding-top: 0;
+    border-top-width: 0;
+}
+
+.flex-course-list .media {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 0;
+    border-top: 1px solid #e5e5e5;
+    display: block;
+    color: #17191a;
+}
+
+.discover-course .media > .pull-left {
+	display: block;
+	overflow: hidden;
+}
+
+
+.flex-course-list .media-heading {
+	margin-top: 4px;
+	font-size: 20px;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.flex-course-list .media:hover .media-heading {
+	color: #308ee3;
+}
+
+.discover-course .media-object {
+	-webkit-transition: all .6s ease;
+	-moz-transition: all .6s ease;
+	-ms-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+}
+
+.flex-course-list .media:hover .media-object,
+.flex-foremost-course:hover .media-object {
+	-webkit-transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-ms-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	transform: scale(1.2,1.2);
+}
+
+/*The white-space bug on firefox is not fixed yet*/
+.flex-course-list p {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	white-space: normal;
+	height: 20px;
+}
+
+
+.flex-course-list .label-course {
+	float: right;
+}
+
+.flex-course-list .media-body,
+.flex-course-list .media-heading {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.flex-course-list .media img {
+	width: 160px;
+	height: 100px;
+}
+
+.flex-course-list .media-body {
+	max-height: 100px;
+}
+
+
+
+@media (max-width: 1199px) {
+	/**
+	 * hidden the second and third li from the end
+	 */
+/*	.discover-course .nav-control .hidden-nav {
+		display: none;
+	}*/
+	.discover-course .nav-control a {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.flex-foremost-course .caption h1 {
+		font-size: 28px;
+	}
+
+	.flex-course-list .media img {
+		width: 130px;
+		height: auto;
+	}
+
+	.flex-course-list p {
+	    margin-top: 8px;
+	    margin-bottom: 12px;
+	}
+
+	.flex-course-list .media {
+	    padding-top: 17px;
+	    padding-bottom: 17px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * need to align with the course slider
+ */
+.more-course {
+	margin-top: 36px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.more-course .btn-orange {
+	font-size: 24px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+
+/**
+ * make the text fade in
+ */
+.more-course .slides > li > a > span {
+	opacity: 0;
+	filter: alpha(opacity=0);
+
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.more-course .slides > .flex-active-slide > a > span {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.more-course > p {
+	margin-top: 10px;
+}
+
+
+
+
+.threeways {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.threeways > div {
+	height: 460px;
+}
+
+
+.threeways .feature-desc {
+	margin-top: 90px;
+}
+
+.threeways h1 {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.threeways .list-unstyled {
+	color: #5c6166;
+}
+
+.threeways .list-unstyled > li {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.threeways .list-dot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 4px;
+	margin-right: 24px;
+}
+
+
+.threeways .btn {
+	color: #fff;
+	margin-top: 40px;
+	border-width: 0;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+
+
+
+.feature-txt-blue {
+	color: #308ee3;
+}
+
+.feature-bg-blue {
+	background-color: #308ee3;
+}
+
+.feature-txt-orange {
+	color: #ffb433;
+}
+
+.feature-bg-orange {
+	background-color: #ffb433;
+}
+
+.feature-txt-purple {
+	color: #7f64b5;
+}
+
+.feature-bg-purple {
+	background-color: #7f64b5;
+}
+
+
+
+
+.register-guide {
+	margin-bottom: 100px;
+}
+
+.register-guide > h1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.register-guide > p {
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 40px;
+}
+
+.register-guide .btn {
+	padding: 18px 120px;
+	font-size: 24px;
+	border-radius: 4px;
+}

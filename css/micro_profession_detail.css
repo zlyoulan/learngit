@@ -1,0 +1,199 @@
+.profession-banner {
+	padding-top: 100px;
+	padding-bottom: 80px;
+	height: 550px;
+	margin-bottom: 0;
+	background-color: #1a2633;
+	background-image: url(../images/micro_profession_detail_bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.profession-banner h1 {
+	font-size: 60px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.profession-banner p {
+	font-size: 18px;
+	line-height: 1.625;
+}
+
+.profession-banner .icon {
+	font-size: 300px;
+	color: #fff;
+}
+
+
+.micro-profession-nav {
+	background-color: #fff;
+}
+
+.micro-profession-nav .nav {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.micro-profession-nav .nav a {
+	font-size: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	line-height: 30px;
+	border-radius: 0;
+	color: #000;
+	background-color: #f5f5f5;
+}
+
+
+
+.content.micro-profession-detail {
+	background-color: #ededed;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.micro-profession-detail .media {
+	background-color: #fff;
+	padding-right: 20px;
+	margin-right: 30px;
+	color: #17181a;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.micro-profession-detail .media > .pull-left {
+	margin-right: 20px;
+	overflow: hidden;
+}
+
+.micro-profession-detail .media-object {
+	max-height: 160px;
+
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.micro-profession-detail .pull-left:hover > .media-object {
+	-webkit-transform: scale(1.2,1.2);
+	-ms-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	transform: scale(1.2,1.2);
+}
+
+.micro-profession-detail .media-heading {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 126px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.micro-profession-detail .media .btn {
+	border-width: 0;
+	border-radius: 4px;
+	padding: 8px 20px;
+	position: absolute;
+	right: 24px;
+	top: 16px;
+}
+
+.micro-profession-detail .media .connect-bar {
+	position: absolute;
+	right: 0;
+	bottom: -30px;
+	background-image: url(../images/connect-bar.png);
+	width: 18px;
+	height: 36px;
+}
+
+
+
+.micro-profession-detail .media-body > p {
+	color: #5c6166;
+	line-height: 22px;
+	height: 66px;
+	overflow: hidden;
+}
+
+.micro-profession-detail .about-to-start .media-object {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+
+.micro-profession-detail .btn-orange {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	font-size: 24px;
+	margin-right: 30px;
+	margin-top: 50px;
+	width: auto;
+}
+
+
+
+
+
+.micro-profession-detail .intro > p {
+	margin-bottom: 30px;
+	line-height: 1.625;
+}
+
+.micro-profession-detail .intro img {
+	margin-bottom: 10px;
+}
+
+.micro-profession-detail .intro a {
+	color: #008ee0;
+}
+
+
+
+
+/**
+ * add video player to the micro profession detail page.
+ */
+.micro-profession-detail .player-container {
+	width: 100%;
+	height: 135px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.micro-profession-courses,
+.micro-profession-intro {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+
+.micro-profession-courses {
+	width: 700px;
+}
+
+.micro-profession-intro {
+	width: 270px;
+}
+
+@media (min-width: 1200px) {
+	.micro-profession-courses {
+		width: 840px;
+	}
+
+	.micro-profession-intro {
+		width: 330px;
+	}
+
+	.micro-profession-detail .player-container {
+		height: 169px;
+	}
+}

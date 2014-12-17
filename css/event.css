@@ -1,0 +1,94 @@
+.event-banner {
+	height: 440px;
+	background-color: #ffc83d;
+	background-image: url(../images/event-banner.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.event-links {
+	background-color: #f5f5f5;
+	padding-top: 45px;
+	padding: 45px;
+}
+
+.event-links .media {
+	background-color: #fff;
+	padding: 25px;
+	color: #666;
+}
+
+.event-links .media > .pull-left {
+	margin-right: 25px;
+}
+
+.event-links .media > .pull-left > h4 {
+	margin-bottom: 0;
+}
+
+.event-intro {
+	color: #666;
+	height: 416px;
+	background-color: #f5f5f5;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-image: url(../images/event-intro-bg.png);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.event-intro h1 {
+	margin-bottom: 40px;
+}
+
+.event-intro h3 {
+	color: #622d2d;
+}
+
+.event-intro p {
+	font-size: 16px;
+}
+
+
+.event-detail {
+	color: #666;
+	background-color: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.event-detail .detail-wrapper {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.event-detail .detail-blk {
+	background-color: #fff;
+	padding: 20px 60px 50px;
+	border-top: 4px solid #ccc;
+	margin-bottom: 70px;
+	border-bottom: 2px solid #CCC;
+	position: relative;
+}
+
+.event-detail .detail-blk h3 {
+	margin-top: 45px;
+}
+
+.btn-event-weibo,
+.btn-event-new {
+	width: 125px;
+	height: 40px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.btn-event-weibo {
+	background-image: url(../images/event-weibo-btn.jpg);
+}
+
+.btn-event-new {
+	background-image: url(../images/event-new-btn.jpg);
+}

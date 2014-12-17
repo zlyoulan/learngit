@@ -1,0 +1,14 @@
+/* line 42, ../../scss/components/star.scss */
+.kkb-starfive, .starfive { display: inline-block; }
+/* line 44, ../../scss/components/star.scss */
+.kkb-starfive .mstar, .starfive .mstar { display: inline-block; }
+/* line 46, ../../scss/components/star.scss */
+.kkb-starfive .mstar span, .starfive .mstar span { display: inline-block; width: 18px; height: 16px; background-repeat: no-repeat; background-position: 0px 0px; background-image: url(../../images/star3.png); }
+/* line 55, ../../scss/components/star.scss */
+.kkb-starfive .mstar span.gray, .starfive .mstar span.gray { background-image: url(../../images/star3.png); }
+/* line 58, ../../scss/components/star.scss */
+.kkb-starfive .mstar span.half, .starfive .mstar span.half { background-image: url(../../images/star2.png); }
+/* line 61, ../../scss/components/star.scss */
+.kkb-starfive .mstar span.yellow, .starfive .mstar span.yellow { background-image: url(../../images/star1.png); }
+/* line 71, ../../scss/components/star.scss */
+.kkb-starfive.kkb-starfive-edit .mstar span, .kkb-starfive.starfive-edit .mstar span, .starfive.kkb-starfive-edit .mstar span, .starfive.starfive-edit .mstar span { cursor: pointer; }

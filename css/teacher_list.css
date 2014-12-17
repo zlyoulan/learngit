@@ -1,0 +1,19 @@
+.teacher-list-top { padding: 68px 0; }
+.teacher-list-top h1 { color: #5c6166; font-size: 40px; margin-bottom: 28px; }
+.teacher-list-top h1 span { color: #aaaeb2; font-weight: 400; }
+.teacher-list-top div { color: #5c6166; font-size: 18px; }
+
+.teacher-list { margin-bottom: 25px; }
+.teacher-list .kkb-lnk { position: relative; text-decoration: none; display: block; overflow: hidden; margin-bottom: 40px; }
+.teacher-list .kkb-lnk .level { height: 345px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; overflow: hidden; }
+.teacher-list .kkb-lnk .first { border: 1px solid #c2c7cc; padding: 45px 0 55px 0; background: #fff; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; }
+.teacher-list .kkb-lnk .first img { -webkit-border-radius: 140px; -moz-border-radius: 140px; -ms-border-radius: 140px; -o-border-radius: 140px; border-radius: 140px; }
+.teacher-list .kkb-lnk .first strong { display: block; color: #17181a; font-size: 24px; margin: 26px auto 12px auto; text-decoration: none; }
+.teacher-list .kkb-lnk .first p { color: #5c6166; text-decoration: none; padding: 0px 40px; }
+.teacher-list .kkb-lnk .second { position: absolute; top: -345px; left: 0; z-index: 1; width: 100%; color: #fff; background: #5c6166; text-align: left; padding: 45px 28px 0 28px; line-height: 24px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
+.teacher-list .kkb-lnk .second strong { font-size: 24px; }
+.teacher-list .kkb-lnk .second p { margin: 6px auto 38px auto; }
+.teacher-list .kkb-lnk:hover { text-decoration: none; }
+.teacher-list .kkb-lnk:hover .second { top: 0px; }
+
+.teacher-list-page { padding-bottom: 100px; }

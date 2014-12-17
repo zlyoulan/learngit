@@ -1,0 +1,20 @@
+.college-detail-breadcrumb-bg { filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#30000000,endColorstr=#30000000) \0\9; background: rgba(0, 0, 0, 0.3); }
+.college-detail-breadcrumb-bg .breadcrumb { background: none; margin-bottom: 0px; }
+.college-detail-breadcrumb-bg .breadcrumb a { color: #fff; }
+.college-detail-breadcrumb-bg .breadcrumb a:hover { color: #fff; }
+.college-detail-breadcrumb-bg .breadcrumb > li + li:before { color: #fff; content: ">"; }
+
+.college-detail-pic-bg { position: relative; height: 544px; background-color: #1a2633; background-color: rgba(0, 0, 0, 0.3); background-repeat: no-repeat; background-position: center top; }
+.college-detail-pic-bg .mask { height: 544px; margin-bottom: -544px; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#701a2633,endColorstr=#701a2633) \9; background: rgba(26, 38, 50, 0.6); }
+.college-detail-pic-bg .lang { display: inline-block; position: absolute; right: 20px; bottom: 20px; z-index: 1; width: 30px; height: 25px; background: url(../images/xinlang.png) no-repeat; }
+
+.college-detail-content-bg { background: #f5f5f5; padding: 50px 0px 100px; }
+
+.college-detail-title { color: #17181a; font-size: 24px; margin-bottom: 30px; }
+
+.college-detail-school { width: 540px; color: #fff; text-align: center; padding-top: 88px; margin: 0px auto; }
+.college-detail-school .yu { display: block; margin: 45px auto 10px; }
+.college-detail-school .yu span { display: inline-block; color: #fff; background: #2f3b47; padding: 4px 16px; }
+.college-detail-school .addr { margin-bottom: 40px; }
+.college-detail-school .addr span { color: #fff; border-bottom: 1px solid #fff; }
+.college-detail-school .mess { text-align: left; }

@@ -1,0 +1,334 @@
+
+/**
+ * custom style the banner slider
+ */
+
+.bannerslider.login-home {
+	min-height: 380px;
+	background-color: #1a2633;
+}
+
+.bannerslider.login-home .flex-img-holder {
+	min-height: 100px;
+}
+
+.bannerslider.login-home .controlNavContainer {
+	bottom: 0px;
+}
+
+.bannerslider.login-home .flex-control-thumbs {
+	left: 0;
+	bottom: 20px;
+	width: 80%;
+}
+
+.bannerslider.login-home .flex-content {
+  top: 100px;
+}
+
+.bannerslider.login-home .flex-content h1 {
+	font-size: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+/**
+ * personel watched class
+ */
+.my-class > h3 {
+	line-height: 40px;
+	margin-bottom: 40px;
+}
+
+.my-class > h3 > .btn-blue {
+	padding: 10px 16px;
+}
+
+
+.watched-open-course,
+.watched-guide-course {
+	margin-bottom: 30px;
+}
+
+.watched-open-course-blk {
+	display: block;
+}
+
+.watched-open-course-blk > p {
+	margin-top: 6px;
+}
+
+.course-blk-viewport {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #fff;
+}
+
+.course-blk-viewport p {
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 6px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+.watched-open-course-blk:hover > p {
+	color: #206fac;
+}
+
+.info-blk {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	bottom: -160px;
+
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+}
+
+.watched-open-course-blk:hover .info-blk {
+	bottom: 0;
+}
+
+.info-default {
+	height: 150px;
+	padding-top: 90px;
+	padding-left: 10px;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#99000000', GradientType=0);
+}
+
+.info-default > p,
+.info-default > span {
+	opacity: 1;
+
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.watched-open-course-blk:hover .info-default > p,
+.watched-open-course-blk:hover .info-default > span {
+	opacity: 0;
+}
+
+.info-hover {
+	height: 160px;
+	padding-top: 60px;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#ff000000', GradientType=0);
+}
+
+.info-hover > button,
+.info-hover > p {
+	opacity: 0;
+
+	-webkit-transition: opacity .3s ease .4s, background-color .2s ease;
+	-moz-transition: opacity .3s ease .4s, background-color .2s ease;
+	-ms-transition: opacity .3s ease .4s, background-color .2s ease;
+	-o-transition: opacity .3s ease .4s, background-color .2s ease;
+	transition: opacity .3s ease .4s, background-color .2s ease;
+}
+
+.watched-open-course-blk:hover .info-hover > button,
+.watched-open-course-blk:hover .info-hover > p {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.watched-guide-course {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.watched-guide-course .media {
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.watched-guide-course .pull-left {
+	margin-right: 0;
+}
+
+
+.watched-guide-course .media-object {
+	height: 100px;
+	width: auto;
+}
+
+.watched-guide-course .media-body {
+	position: relative;
+	height: 100px;
+	padding-left: 10px;
+}
+
+.watched-guide-course .media-body > .media-heading {
+	white-space: nowrap;
+	width: 60%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.watched-guide-course .media-body > .text-muted {
+	width: 60%;
+	font-size: 12px;
+	min-height: 36px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.watched-guide-course .media-body > .progress-info {
+	font-size: 12px;
+	position: relative;
+	margin-bottom: 0;
+}
+.watched-guide-course .media-body > .progress-info .label {
+	font-size: 10px;
+	vertical-align: top;
+	margin-left: 10px;
+	line-height: 14px;
+	padding: 2px 6px;
+	border-radius: 2px;
+}
+
+.watched-guide-course .media-body > .btn-orange {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	padding: 6px 10px;
+}
+
+.watched-guide-course .media-body > .pg-bar {
+	width: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 4px;
+	z-index: 1;
+	background-color: #f7a947;
+}
+
+.watched-guide-course .media-heading {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+
+.login-home .empty-state {
+	background-color: #fff;
+	width: 100%;
+	display: table;
+	color: #999;
+	margin-bottom: 40px;
+	font-size: 16px;
+}
+
+.login-home .empty-state > p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.login-home .empty-state.open-course {
+	height: 190px;
+}
+
+.login-home .empty-state.guide-course {
+	height: 100px;
+	margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+/**
+ * courses list sub title header
+ * should be unify with other heads
+ */
+.courses > h3 {
+	margin-bottom: 20px;
+	line-height: 34px;
+	color: #666;
+}
+
+.courses-row-switch {
+	margin-right: 20px;
+	font-size: 18px;
+	color: #999;
+}
+
+.courses-row-switch > a {
+	margin-right: 10px;
+	color: #2a6496;
+}
+
+.courses-row-switch > .disabled {
+	color: #999 !important;
+}
+
+.courses-row-switch > a:hover,
+.courses-row-switch > a:active {
+	color: #f7a947;
+}
+
+.courses > h3 > .btn > .glyphicon {
+	font-size: 80%;
+	color: #999;
+}
+
+.courses > h3 > .btn {
+	color: #666;
+	border-width: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+
+
+
+
+
+
+
+
+

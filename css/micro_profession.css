@@ -1,0 +1,196 @@
+.micro-profession.jumbotron {
+	padding-top: 120px;
+	background-color: #7f64b5;
+	background-image: url(../images/micro_profession_bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.micro-profession.jumbotron h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.micro-profession.jumbotron p {
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+
+.micro-profession.jumbotron .icon {
+	font-size: 170px;
+
+
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.micro-profession.jumbotron a {
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.micro-profession.jumbotron a:hover,
+.micro-profession.jumbotron a:focus {
+	color: #fff;
+}
+
+.micro-profession.jumbotron a > img,
+.micro-profession.jumbotron a > img {
+	margin-top: 10px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.micro-profession.jumbotron a:hover > img,
+.micro-profession.jumbotron a:focus > img {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+
+.micro-profession.jumbotron a:hover .icon,
+.micro-profession.jumbotron a:focus .icon {
+	top: -10px;
+}
+
+
+
+
+
+
+
+.profession-section {
+	color: #5c6166;
+	padding-bottom: 150px;
+}
+
+.profession-section .page-header {
+	border-bottom-color: #ccc;
+	margin-bottom: 80px;
+}
+
+.profession-section h1 {
+	margin-bottom: -30px;
+}
+
+.profession-section h1 > span {
+	display: inline-block;
+	padding-right: 20px;
+	background-color: #f4f4f4;
+}
+
+.profession-section .introduction > p {
+	margin-bottom: 24px;
+}
+
+.profession-section .profession-list {
+	margin-top: 40px;
+}
+
+.profession-section .profession-list > li {
+	padding: 10px;
+	display: block;
+	border-radius: 4px;
+
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.profession-section .profession-list > li:hover,
+.profession-section .profession-list > li.active {
+	background-color: #e6e6e6;
+}
+
+.profession-section .panel {
+	-webkit-box-shadow: 0 1px 1px #ccc;
+	box-shadow: 0 1px 1px #ccc;
+	position: relative;
+	border-width: 0;
+}
+
+
+.profession-section .panel .panel-body {
+	border-radius: 0 0 4px 4px;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: transparent;
+	min-height: 250px;
+
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.profession-section .panel:hover .panel-body,
+.profession-section .panel.active .panel-body {
+	border-color: #d1d1d1;
+}
+
+.profession-section .panel-heading {
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.profession-section .panel-heading .label {
+	background-color: #fff;
+	border-radius: 4px;
+	padding: .1em 0.4em;
+}
+
+.profession-section .panel ul {
+	margin-bottom: 70px;
+}
+
+.profession-section .panel li {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.profession-section .panel .btn-container {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+}
+
+.profession-section .panel .btn-reverse {
+	width: 170px;
+	padding: 8px 20px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: 2px solid transparent;
+}
+
+
+
+
+
+.profession-feedback {
+	padding-top: 100px;
+	padding-bottom: 120px;
+	background-color: #fff;
+}
+
+.profession-feedback p {
+	font-size: 20px;
+	color: #9ca5ad;
+	margin-bottom: 40px;
+}
+
+#profession-feedback-field {
+	overflow: hidden;
+	height: auto;
+}

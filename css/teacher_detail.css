@@ -1,0 +1,27 @@
+.teacher-detail-breadcrumb-bg { filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#30000000,endColorstr=#30000000) \0\9; background: rgba(0, 0, 0, 0.3); }
+.teacher-detail-breadcrumb-bg .breadcrumb { background: none; margin-bottom: 0px; }
+.teacher-detail-breadcrumb-bg .breadcrumb a { color: #fff; }
+.teacher-detail-breadcrumb-bg .breadcrumb a:hover { color: #fff; }
+.teacher-detail-breadcrumb-bg .breadcrumb > li + li:before { color: #fff; content: ">"; }
+
+.teacher-detail-pic-bg { position: relative; height: 416px; background-color: #06f; background-color: rgba(0, 0, 0, 0.3); background-repeat: no-repeat; background-position: center top; }
+.teacher-detail-pic-bg .mask { height: 416px; margin-bottom: -416px; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#701a2633,endColorstr=#701a2633) \9; background: rgba(26, 38, 50, 0.6); }
+.teacher-detail-pic-bg .main { width: 540px; color: #fff; padding-top: 88px; margin: 0px auto; }
+.teacher-detail-pic-bg .main .pic { display: block; width: 98px; height: 98px; border: 1px solid #fff; margin-right: 16px; -webkit-border-radius: 98px; -moz-border-radius: 98px; -ms-border-radius: 98px; -o-border-radius: 98px; border-radius: 98px; }
+.teacher-detail-pic-bg .main .info { width: 426px; }
+.teacher-detail-pic-bg .main .name { line-height: 30px; margin-bottom: 28px; }
+.teacher-detail-pic-bg .main .name strong { font-size: 24px; }
+.teacher-detail-pic-bg .main .chen { margin-bottom: 6px; }
+.teacher-detail-pic-bg .main .mess { word-break: break-all; margin-bottom: 20px; }
+.teacher-detail-pic-bg .main .tag em { display: inline-block; margin-right: 6px; background: #18170f; background: rgba(0, 0, 0, 0.3); padding: 2px 6px; }
+.teacher-detail-pic-bg .lang { display: inline-block; position: absolute; right: 20px; bottom: 20px; z-index: 1; width: 30px; height: 25px; background: url(../images/xinlang.png) no-repeat; }
+
+.teacher-detail-content-bg { background: #f5f5f5; padding-top: 28px; }
+
+.teacher-detail-title { color: #17181a; font-size: 24px; margin-bottom: 24px; }
+
+.teacher-detail-article { padding: 60px 0px; }
+.teacher-detail-article dl { color: #17181a; }
+.teacher-detail-article dt { font-size: 24px; margin-bottom: 30px; }
+.teacher-detail-article dd { font-size: 14px; margin-bottom: 20px; }
+.teacher-detail-article dd img { margin-right: 10px; }

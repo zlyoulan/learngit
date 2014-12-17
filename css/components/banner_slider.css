@@ -1,0 +1,167 @@
+.bannerslider {
+	background-color: #1a2633;
+	position: relative;
+	z-index: 1;
+}
+ 
+/**
+ * better ways to adjust images
+ * need to renew this file
+ * the height define here should be the min-height
+ */
+.flex-img-holder {
+	height: 500px;
+	min-height: 380px;
+	background-position: center center;
+	background-color: #ccc;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 740px;
+}
+
+
+.flex-img-holder:after {
+	content: " ";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.3);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4cffffff', endColorstr='#4cffffff');
+	z-index: 1;
+}
+
+
+/**
+ * Slider text content
+ * Need to center those txt on the screen
+ */
+.bannerslider .flex-content {
+	position: absolute;
+	width: 100%;
+	top: 80px;
+	background-color: transparent;
+	color: white;
+	z-index: 10;
+}
+
+
+/**
+ * need to resize on different width and height
+ * may need to use web font to style the text
+ */
+.bannerslider .flex-content h1 {
+	color: #fff;
+	font-size: 60px;
+	text-shadow: 1px 2px 0px rgba(37, 34, 34, 0.36);
+}
+
+
+.bannerslider .flex-content .btn-white-border {
+	margin-top: 10px;
+	padding: 11px 30px;
+	font-weight: bold;
+}
+
+.bannerslider .btn-white-border:hover,
+.bannerslider .btn-white-border:focus {
+	color: #fff;
+	background-color: rgba(255,255,255,0.2);
+}
+
+
+/**
+ * this is for a shadow of the banner slider
+ */
+.bannerslider .flexslider {
+	background-color: #000;
+}
+
+
+/**
+ * relative position to make the text could be shown above pictures
+ * overflow:hidden; to hide those negative margin hidden images.
+ */
+.bannerslider .flexslider .slides > li {
+	position: relative;
+}
+
+
+
+/**
+ * need to use relative to make the conatainer above the banner
+ * set the height to 0, prevent occupying space in its original position
+ */
+.bannerslider .controlNavContainer {
+	position: relative;
+	bottom: 350px;
+	height: 0;
+	z-index: 3;
+}
+
+/**
+ * make the thumbs block float right
+ * and make the shadow visible out of the box
+ * cannot use float:righ;
+ * it would have space occupation and affect other area
+ */
+.bannerslider .flex-control-thumbs {
+	width: auto;
+	margin-top: 0;
+	right: 0;
+	position: absolute;
+	overflow: visible;
+}
+
+.bannerslider .flex-control-thumbs li {
+	width: auto;
+}
+
+.bannerslider .flex-control-thumbs img {
+	-moz-user-select: none;
+	width: 112px;
+	height: 62px;
+	margin-left: 20px;
+	margin-right: 10px;
+	border: 1px solid #fff;
+	-webkit-box-shadow: 0px 5px 8px 0px rgba(3, 0, 0, 0.12);
+	-moz-box-shadow: 0px 5px 8px 0px rgba(3, 0, 0, 0.12);
+	box-shadow: 0px 5px 8px 0px rgba(3, 0, 0, 0.12);
+	opacity: 1;
+
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.bannerslider .flex-control-thumbs .flex-active {
+	width: 116px;
+	height: 66px;
+	border-width: 3px;
+	margin-top: -10px;
+	border-color: #f7a947;
+	box-shadow: 4px 7px 24px 0px #252222;
+}
+
+
+@media (min-height: 770px) {
+	.bannerslider .flex-content .btn-white-border {
+		margin-top: 40px;
+	}
+	.bannerslider .flex-content {
+		top: 150px;
+	}
+	.bannerslider .flex-content h1 {
+		font-size: 78px;
+	}
+}
+
+@media (min-height: 1100px) {
+	.bannerslider .flex-content {
+		top: 200px;
+	}
+}
+

@@ -1,0 +1,47 @@
+.cert-presentation {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #f6f7fb;
+}
+
+
+.cert-presentation h1 {
+	font-size: 60px;
+	margin-bottom: 24px;
+	margin-top: 0;
+	color: #2e3133;
+}
+
+.cert-presentation p {
+	font-size: 18px;
+	margin-bottom: 4px;
+	color: #5c6066;
+}
+
+.cert-presentation img {
+	margin-top: 30px;
+}
+
+
+.cert-intro {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #fff;
+}
+
+.cert-intro .text-center > p {
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+
+.cert-intro h1 {
+	color: #288ce6;
+}
+
+.cert-intro p {
+	color: #9ca5ad;
+}
+
+.cert-intro h4 {
+	margin-top: 30px;
+}

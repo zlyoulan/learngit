@@ -1,0 +1,257 @@
+.course-row-nav {
+	margin-right: 30px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.course-row-nav > a {
+	margin-left: 10px;
+}
+
+.course-row-nav > a.disabled,
+.course-row-nav > a.disabled:hover {
+	color: #ccc;
+}
+
+.course-row-nav > a:hover {
+	color: #f8a948;
+}
+
+
+
+.course-row-viewport {
+	overflow-x: hidden;
+	position: relative;
+}
+
+.course-row {
+	margin-left: -8px;
+	margin-right: -8px;
+	position: relative;
+	left: 0;
+}
+
+.course-row:before, .course-row:after {
+	display: table;
+	content: " ";
+}
+
+.course-row:after {
+	clear: both;
+}
+
+.course-row > li {
+	padding-left: 8px;
+	padding-right: 8px;
+	width: 33.33333333%;
+	float: left;
+}
+
+.course-card {
+	color: #5c6166;
+	position: relative;
+	width: 100%;
+	padding: 0;
+	border-width: 0;
+	-webkit-box-shadow: 0 1px 0 #ebeaea;
+	box-shadow: 0 1px 0 #ebeaea;
+}
+
+
+.course-card .caption {
+	height: 204px;
+	position: relative;
+	z-index: 2;
+	border-bottom: 4px solid transparent;
+
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.course-card:hover .caption.guide {
+	border-bottom-color: #f7a947;
+}
+
+.course-card:hover .caption.open {
+	border-bottom-color: #308ee3;
+}
+
+.course-card .float-blk {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #5c6166;
+	background-color: #fff;
+	font-size: 12px;
+	padding: 15px 10px;
+}
+
+.course-card > .caption h4 {
+	font-size: 18px;
+	line-height: 26px;
+	margin-top: 0;
+	margin-bottom: 24px;
+	height: 52px;
+	color: #17181a;
+	overflow: hidden;
+
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.course-card:hover > .caption h4 {
+	color: #206fac;
+}
+
+.course-info {
+	position: relative;
+}
+
+.course-info > img {
+	position: absolute;
+	right: 0;
+	top: -6px;
+}
+
+
+
+.course-intro {
+	height: 0;
+	overflow: hidden;
+
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.course-card:hover .course-intro {
+	height: 72px;
+	margin-top: 28px;
+	margin-bottom: 24px;
+}
+
+.course-card .course-intro > p {
+	padding-left: 10px;
+	margin-bottom: 0;
+	max-height: 72px;
+	border-left: 2px solid #797c80;
+	font-size: 12px;
+	line-height: 18px;
+	color: transparent;
+	overflow: hidden;
+
+	-webkit-transition: color .4s ease-in-out .2s;
+	-moz-transition: color .4s ease-in-out .2s;
+	-ms-transition: color .4s ease-in-out .2s;
+	-o-transition: color .4s ease-in-out .2s;
+	transition: color .4s ease-in-out .2s;
+}
+
+
+.course-card:hover .course-intro > p {
+	color: #5c6166;
+}
+
+
+.course-review {
+	margin-top: 20px;
+	line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.course-favorite {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	line-height: 54px;
+	font-size: 30px;
+	text-align: right;
+	padding-right: 20px;
+
+	background-color: transparent;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.course-card:hover .course-favorite {
+	background-color: rgba(0,0,0,0.6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#99000000', GradientType=0);
+}
+
+
+.course-favorite > .favorite-heart {
+	color: #fff;
+	opacity: 0;
+	filter: alpha(opacity=0);
+
+	-webkit-transition: opacity .3s ease .3s, color .3s ease;
+	-moz-transition: opacity .3s ease .3s, color .3s ease;
+	-ms-transition: opacity .3s ease .3s, color .3s ease;
+	-o-transition: opacity .3s ease .3s, color .3s ease;
+	transition: opacity .3s ease .3s, color .3s ease;
+}
+
+.course-favorite > .favorite-heart:hover {
+	color: #f8ccc9;
+}
+
+.course-favorite > .favorite-heart.active {
+	color: #e65045;
+}
+
+.course-card:hover .course-favorite > .favorite-heart {
+	opacity: 1;
+	filter: alpha(opacity=100);
+
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+
+
+@media (min-width: 1200px) {
+	.course-row > li {
+		width: 25%;
+	}
+}
+
+
+
+
+
+
+/**
+ * for those 4th hidden card
+ */
+@media (max-width: 1199px) {
+	.hidden-course-card {
+		display: none;
+	}
+}
+
+

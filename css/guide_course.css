@@ -1,0 +1,171 @@
+.kkb-breadcrumb a { color: #17181a; }
+.kkb-breadcrumb > li + li:before { content: ">"; }
+
+.btn-blue { color: #fff; font-size: 16px; background: #308de3; }
+.btn-blue:hover { color: #fff; background: #349bf9; }
+
+.btn-yellow { color: #fff; font-size: 24px; background: #faaa3c; border: none; }
+.btn-yellow:hover { color: #fff; background: #ffbb42; }
+
+.guide-lesson-mainlt { padding-right: 50px; }
+
+.guide-lesson-gray-main { padding-bottom: 36px; }
+
+.guide-lesson-tvmain .pictv { width: 684px; height: 394px; }
+.guide-lesson-tvmain .pictv img { display: block; width: 100%; height: 100%; }
+.guide-lesson-tvmain .txttv { position: relative; height: 394px; margin-left: 720px; }
+.guide-lesson-tvmain .txttv h1 { color: #17181a; font-size: 36px; line-height: 50px; margin: 2px 0px 16px 0px; }
+.guide-lesson-tvmain .txttv .stargroup { margin-bottom: 20px; }
+.guide-lesson-tvmain .txttv .stargroup .star-fill { font-size: 20px; }
+.guide-lesson-tvmain .txttv .duration { width: 220px; }
+.guide-lesson-tvmain .txttv .duration span { display: inline-block; margin-right: 20px; }
+.guide-lesson-tvmain .txttv .duration label { display: inline-block; margin-left: 20px; font-weight: normal; }
+.guide-lesson-tvmain .txttv .time-level { height: 20px; margin-bottom: 18px; }
+.guide-lesson-tvmain .txttv .btmbk { position: absolute; right: 0px; bottom: 0px; z-index: 1; width: 415px; height: 110px; border-top: 4px solid #308de3; background: #fff; padding: 12px 0px 0px 20px; }
+.guide-lesson-tvmain .txttv .kbtns { position: relative; padding-right: 30px; margin-top: 8px; }
+.guide-lesson-tvmain .txttv .kbtns .btn { width: 260px; margin-left: 12px; }
+.guide-lesson-tvmain .txttv .kbtns .btn-yellow { color: #fff; font-size: 24px; background: #faaa3c; border: none; }
+.guide-lesson-tvmain .txttv .kbtns .btn-yellow:hover { color: #fff; background: #ffbb42; }
+.guide-lesson-tvmain .txttv .kbtns .btn-green { color: #fff; font-size: 24px; background: #0f0; border: none; }
+.guide-lesson-tvmain .txttv .kbtns .btn-green:hover { color: #fff; background: lime; }
+.guide-lesson-tvmain .txttv .kbtns .btn-blue { color: #fff; font-size: 24px; background: #308de3; }
+.guide-lesson-tvmain .txttv .kbtns .btn-blue:hover { color: #fff; background: #349bf9; }
+.guide-lesson-tvmain .txttv .kbtns .follow { position: absolute; right: 24px; bottom: 0px; z-index: 1; float: none; color: #c2c6cc; font-size: 24px; text-align: right; }
+.guide-lesson-tvmain .txttv .kbtns .follow .glyphicon-heart { font-size: 30px; margin-right: -16px; vertical-align: middle; cursor: pointer; }
+.guide-lesson-tvmain .txttv .kbtns .follow label { vertical-align: -3px; }
+.guide-lesson-tvmain .txttv .kbtns .follow a { color: #c2c6cc; }
+.guide-lesson-tvmain .txttv .kbtns .follow a:hover { color: #a1a8b3; }
+.guide-lesson-tvmain .txttv .kbtns .follow .active { color: #ef507a; }
+.guide-lesson-tvmain .txttv .kbtns .follow .active:hover { color: #ef507a; }
+
+.guide-lesson-main { padding-top: 50px; }
+
+.guide-lesson-title { color: #17181a; font-size: 24px; margin-bottom: 28px; }
+
+.guide-lesson-message { color: #5c6166; margin-bottom: 20px; }
+.guide-lesson-message ul, .guide-lesson-message li { list-style: none; padding: 0; }
+
+.guide-lesson-message-about { margin-bottom: 50px; }
+.guide-lesson-message-about .tips { margin-bottom: 20px; }
+.guide-lesson-message-about .tips em { display: inline-block; color: #616466; font-size: 12px; background: #e5e5e5; padding: 2px 8px; margin-right: 8px; }
+
+.guide-lesson-source-outline { margin-bottom: 50px; }
+.guide-lesson-source-outline dl { margin-bottom: 0px; }
+.guide-lesson-source-outline dt { color: #17181a; font-size: 16px; padding: 8px 16px; margin-bottom: 20px; }
+.guide-lesson-source-outline dt .ps-mltsourcebtn { display: none; }
+.guide-lesson-source-outline dt.open { background: #f5f5f5; }
+.guide-lesson-source-outline dt:hover { background: #f5f5f5; }
+.guide-lesson-source-outline dt:hover .ps-mltsourcebtn { display: block; }
+.guide-lesson-source-outline dt em { color: #5c6166; font-size: 12px; line-height: 26px; cursor: pointer; }
+.guide-lesson-source-outline ul { padding-left: 36px; padding-bottom: 10px; display: none; }
+.guide-lesson-source-outline ul li { margin-bottom: 20px; }
+
+.guide-lesson-apsources { margin-bottom: 50px; }
+.guide-lesson-apsources li { width: 230px; word-break: break-all; margin-right: 15px; }
+.guide-lesson-apsources li img { width: 230px; }
+.guide-lesson-apsources li a { word-break: break-all; }
+.guide-lesson-apsources li div { margin: 8px 0px 10px 0px; }
+.guide-lesson-apsources li .tip { color: #fff; font-size: 12px; padding: 2px 8px; }
+.guide-lesson-apsources li .tippub { background: #3690e0; }
+.guide-lesson-apsources li .tiptea { background: #f7a947; }
+
+.guide-lesson-book li { margin-bottom: 10px; }
+.guide-lesson-book img { margin-right: 16px; }
+
+.guide-lesson-team { margin-bottom: 25px; }
+.guide-lesson-team .kkb-lnk { position: relative; text-decoration: none; display: block; overflow: hidden; margin-bottom: 40px; }
+.guide-lesson-team .kkb-lnk .level { height: 345px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; }
+.guide-lesson-team .kkb-lnk .first { border: 1px solid #c2c7cc; padding: 45px 0 55px 0; background: #fff; }
+.guide-lesson-team .kkb-lnk .first strong { display: block; color: #17181a; font-size: 24px; margin: 26px auto 12px auto; text-decoration: none; }
+.guide-lesson-team .kkb-lnk .first p { color: #5c6166; text-decoration: none; padding: 0px 40px; }
+.guide-lesson-team .kkb-lnk .second { position: absolute; top: -345px; left: 0; z-index: 1; width: 100%; color: #fff; background: #5c6166; text-align: left; padding: 45px 28px 0 28px; line-height: 24px; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
+.guide-lesson-team .kkb-lnk .second strong { font-size: 24px; }
+.guide-lesson-team .kkb-lnk .second p { margin: 6px auto 38px auto; }
+.guide-lesson-team .kkb-lnk:hover { text-decoration: none; }
+.guide-lesson-team .kkb-lnk:hover .second { top: 0px; }
+
+.guide-lesson-faq .item { margin-bottom: 20px; }
+.guide-lesson-faq .itemlt { width: 292px; }
+.guide-lesson-faq .itemrt { position: relative; margin-left: 310px; color: #5c6166; background: #f0f0f0; padding: 16px 20px; }
+.guide-lesson-faq .itemrt .sari { position: absolute; left: -20px; top: 0; width: 0; height: 0; border-right: 20px solid #f0f0f0; border-bottom: 20px solid transparent; }
+.guide-lesson-faq .first { width: 36px; }
+.guide-lesson-faq .first span { display: block; width: 36px; height: 36px; line-height: 36px; color: #ffffff; font-size: 18px; text-align: center; background: #c2c7cc; }
+.guide-lesson-faq .second { width: 240px; margin-left: 16px; }
+.guide-lesson-faq .second strong { display: block; color: #17181a; font-size: 20px; font-weight: normal; margin-bottom: 6px; }
+.guide-lesson-faq .second label { color: #aaaeb2; font-size: 12px; font-weight: 400; }
+
+.guide-lesson-certificate { padding-bottom: 40px; border-bottom: 1px solid #c2c7cc; margin-bottom: 40px; }
+.guide-lesson-certificate img { display: block; width: 100%; }
+
+.guide-lesson-review { padding-bottom: 40px; border-bottom: 1px solid #c2c7cc; margin-bottom: 40px; }
+.guide-lesson-review textarea { resize: none; }
+.guide-lesson-review textarea:focus { outline: none; }
+.guide-lesson-review .evaluation_content label { display: block; color: #d92721; text-align: right; font-weight: normal; padding-top: 10px; }
+.guide-lesson-review .btm { margin-top: 10px; }
+.guide-lesson-review .btn-gray { background: #c2c7cc; cursor: default; }
+.guide-lesson-review .btn-gray:hover { color: #fff; background: #c2c7cc; }
+.guide-lesson-review .btn-blue { width: 110px; height: 35px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; background: #308de3; }
+.guide-lesson-review .btn-blue:hover { background: #349bf9; }
+.guide-lesson-review .star { margin-bottom: 10px; }
+.guide-lesson-review .star .star-fill { font-size: 20px; }
+.guide-lesson-review .result { padding-bottom: 20px; }
+.guide-lesson-review .result > div { word-break: break-all; word-wrap: break-word; margin-bottom: 10px; }
+
+.guide-lesson-eval .item { padding-bottom: 20px; border-bottom: 1px solid #dfe2e6; margin-bottom: 20px; }
+.guide-lesson-eval .item .top { position: relative; }
+.guide-lesson-eval .item .pic { width: 50px; height: 50px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; margin-right: 14px; }
+.guide-lesson-eval .item ul { display: inline-block; padding-top: 2px; }
+.guide-lesson-eval .item .name { width: 100px; color: #17181a; margin-bottom: 5px; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; }
+.guide-lesson-eval .item .num { color: #5c6166; font-size: 12px; vertical-align: 3px; }
+.guide-lesson-eval .item .day { position: absolute; right: 0px; top: 0px; z-index: 1; color: #aaaeb2; font-size: 12px; font-weight: 400; }
+.guide-lesson-eval .item .star-fill { font-size: 16px; }
+.guide-lesson-eval .item .score { vertical-align: 2px; }
+.guide-lesson-eval .pagination-sm li a { color: #5c6166; margin: 0px 5px; border-color: #c6c9cc; }
+.guide-lesson-eval .pagination-sm li a:hover { color: #fff; background: #308ee3; border: 1px solid #308ee3; }
+.guide-lesson-eval .pagination-sm li.active a { color: #fff; background: #308ee3; border: 1px solid #308ee3; }
+.guide-lesson-eval .pagination-sm li:first-child a, .guide-lesson-eval .pagination-sm li span { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
+.guide-lesson-eval .pagination-sm li:last-child a, .guide-lesson-eval .pagination-sm li span { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
+
+@media (max-width: 1200px) { .guide-lesson-eval .item .name { width: 80px; } }
+.guide-lesson-degree { display: inline-block; vertical-align: -9px; margin-right: 12px; }
+.guide-lesson-degree ul, .guide-lesson-degree li { list-style: none; }
+.guide-lesson-degree li { float: left; width: 10px; height: 10px; margin-left: 5px; background: #c2c6cc; -webkit-border-radius: 1px; -moz-border-radius: 1px; -ms-border-radius: 1px; -o-border-radius: 1px; border-radius: 1px; }
+
+.guide-lesson-degree1 .one { background: #308de3; }
+
+.guide-lesson-degree2 .one, .guide-lesson-degree2 .two { background: #308de3; }
+
+.guide-lesson-degree3 li { background: #308de3; }
+
+@media screen and (max-width: 1200px) { .guide-lesson-tvmain .pictv { width: 485px; height: 282px; }
+  .guide-lesson-tvmain h1 { margin: 0px auto 20px; }
+  .guide-lesson-tvmain .txttv { height: 282px; margin-left: 522px; }
+  .guide-lesson-apsources li { width: 200px; }
+  .guide-lesson-apsources li img { width: 200px; } }
+.learn-all-evaluation .top ul, .learn-all-evaluation .top li { list-style: none; padding: 0px; }
+.learn-all-evaluation .top .guide-lesson-degree { padding: 0px; }
+.learn-all-evaluation .time { color: #5c6266; margin-bottom: 46px; }
+.learn-all-evaluation .time span { margin-right: 20px; }
+.learn-all-evaluation .time label { margin-left: 20px; font-weight: normal; }
+.learn-all-evaluation .btm { position: relative; margin-top: 18px; border-top: 4px solid #308de3; padding-top: 18px; padding-left: 3px; }
+.learn-all-evaluation .btm .choose { margin-bottom: 16px; }
+.learn-all-evaluation .btm .btn { display: inline-block; width: 120px; margin-right: 12px; }
+.learn-all-evaluation .btm .btn-yellow { color: #fff; font-size: 24px; background: #faaa3c; border: none; }
+.learn-all-evaluation .btm .btn-yellow:hover { color: #fff; background: #ffbb42; }
+.learn-all-evaluation .btm .btn-green { color: #fff; font-size: 24px; background: #0f0; border: none; }
+.learn-all-evaluation .btm .btn-green:hover { color: #fff; background: lime; }
+.learn-all-evaluation .btm .btn-blue { color: #fff; font-size: 24px; background: #308de3; }
+.learn-all-evaluation .btm .btn-blue:hover { color: #fff; background: #349bf9; }
+.learn-all-evaluation .btm .follow { position: absolute; right: 0px; top: 63px; z-index: 1; width: 120px; text-align: right; display: inline-block; color: #c2c6cc; font-size: 24px; vertical-align: -3px; }
+.learn-all-evaluation .btm .follow > span { width: 119px; }
+.learn-all-evaluation .btm .follow .glyphicon-heart { font-size: 30px; margin-right: 10px; vertical-align: middle; cursor: pointer; }
+.learn-all-evaluation .btm .follow label { vertical-align: -3px; }
+.learn-all-evaluation .btm .follow:hover { color: #a1a8b3; }
+.learn-all-evaluation .btm .follow a { color: #c2c6cc; }
+.learn-all-evaluation .btm .follow a:hover { color: #a1a8b3; }
+.learn-all-evaluation .btm .follow .active { color: #ef507a; }
+.learn-all-evaluation .btm .follow .active:hover { color: #ef507a; }
+
+@media screen and (max-width: 1200px) { .learn-all-evaluation .btm .btn { width: 90px; font-size: 16px; }
+  .learn-all-evaluation .btm .follow { font-size: 18px; }
+  .learn-all-evaluation .btm .follow .glyphicon-heart { font-size: 24px; } }
